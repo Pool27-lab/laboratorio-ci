@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 name: CI
+=======
+
+name: CI
+on:
+push:
+branches: [ "main" ]
+workflow_dispatch:
+jobs:
+build:
+runs-on: ubuntu-latest
+steps:
+- name: "Mostrar mensaje"
+run: echo "Hola mundo"
+>>>>>>> 7908e6766c87db7c005a9fe5739de66c8105d07a
